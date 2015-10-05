@@ -3,10 +3,14 @@ package gbintool
 class Main {
     static void main(def args) {
         Main m = new Main()
-        println m.returnHello()
+        println m.returnListEtudiant()
     }
 
-    String returnHello() {
-        'Hello'
+    ArrayList<String>  returnListEtudiant() {
+        def listEtud = ["Abdellah","chevallier","youssef","didier","david"]
+        println listEtud
+            
+
+        
     }
 }
