@@ -1,5 +1,8 @@
 *.class
 .gradle
+libs/
+src/ressources
+build/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
